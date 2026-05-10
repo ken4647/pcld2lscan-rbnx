@@ -1,0 +1,19 @@
+package:
+  name: pcld2lscan-rbnx
+  version: 0.0.1
+  description: a package for trasforming topic from pointcloud to laserscan
+  maintainer: zhengwu
+  maintainer_email: wuzheng_study@163.com
+  license: Apache-2.0
+  # build_script: rbnx/build.sh # by default
+
+primitives:
+  - name: prm::trasform.laserscan 
+    version: 0.0.1-impl-alpha
+    start_script: rbnx/start.sh    
+    stop_script: rbnx/stop.sh  
+    input_schema: '{}'              
+    output_schema: '{}'  
+
+skills:
+  # no skills
